@@ -33,9 +33,9 @@
 //         console.log("button")
 //       }
 //     }
-    function showDiv(){
-document.getElementById("target").removeAttribute("hidden")
-    }
+    //function showDiv(){
+//document.getElementById("target").removeAttribute("hidden")
+   // }
     // function myBtn() {
     //     document.getElementById("button").()
         
@@ -48,14 +48,20 @@ document.getElementById("target").removeAttribute("hidden")
 // document.addEventListener("click", "submit");
 // let myBtn = document.getElementById("button");
 // document.addEventListener("click", "rest");
-function myFunction() {
-    document.getElementById("button").reset("");
+//function myFunction() {
+    //document.getElementById("button").reset("");
 
-  }
-  function myBtn() {
-    document.getElementById("button").submit("");
+  //}
+  //function myBtn() {
+    //document.getElementById("button").submit("");
 
-  }
+  //}
+  function showDiv(){
+    document.getElementById("target").removeAttribute("hidden")
+        }
+    function myfunc(){
+        document.getElementById("target").submit();
+    }
   module.exports = () => {
     const data = { users: [] }
     // Create 1000 users
